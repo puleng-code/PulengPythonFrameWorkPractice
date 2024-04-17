@@ -54,7 +54,7 @@ cover/
 # Translations
 *.mo
 *.pot
-
+.idea/
 # Django stuff:
 *.log
 local_settings.py
@@ -67,7 +67,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
+venv/
 # Sphinx documentation
 docs/_build/
 
