@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-pytest.fixture()
+@pytest.fixture()
 def setup(browser):
     if browser.lower() or browser.upper() == 'chrome':
         chrome_options = webdriver.ChromeOptions()
